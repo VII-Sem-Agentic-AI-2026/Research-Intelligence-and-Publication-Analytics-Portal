@@ -1,156 +1,170 @@
-# AURA – Research Intelligence & Publication Analytics Portal
+# Research Intelligence & Publication Analytics Portal
 
-## 1. Team Details
+## Course Information
 
-| Sl. No. | Name | USN | Division |
+- **University:** KLE Technological University, Belagavi
+- **Department:** Computer Science & Engineering (AI)
+- **Course:** Agentic AI (26ECAC401)
+- **Team Number:** Team 2
+- **Worklet Title:** Chapter 14 — Research Intelligence & Publication Analytics Portal
+
+## Team Members
+
+| No. | Name | USN | Division |
 |---|---|---|---|
-| 1 | Ravi Shantesh Desai | 01FE23BCI028 | B |
-| 2 | Shreya Santosh Desai | 01FE23BCI016 | B |
+| 1 | Ravi Desai | 01FE23BCI028 | B |
+| 2 | Shreya Desai | 01FE23BCI016 | B |
 | 3 | Anurag G | 01FE24BCI409 | B |
 | 4 | Tejas M | 01FE23BCI052 | B |
 
-**Department:** Computer Science and Artificial Intelligence  
-**Institution:** KLE Technological University, Hubballi
+---
 
-## 2. Project Overview
+## Assignments – Agentic AI Hands-on Labs
 
-AURA is a web-based research management platform developed to simplify the management of faculty research profiles, academic publications, citations and institutional research reports.
+1. **Lab 1 – Agent vs Chatbot**
+2. **Lab 2 – Tool-Using Agent**
+3. **Lab 3 – Skill Creation**
+4. **Lab 4 – Memory & Retrieval**
+5. **Lab 5 – MCP-Style Connector**
+6. **Lab 6 – OpenCLA / OpenClaw Runtime**
+7. **Lab 7 – Agentic Node Graph**
+8. **Lab 8 – Parallel Swarm**
+9. **Lab 9 – Deep Research Agent**
+10. **Lab 10 – Cloud Operations Agent**
+11. **Lab 11 – Agentic SDLC Factory**
+12. **Lab 12 – Safety & Governance**
+13. **Lab 13 – Discipline-Specific Agents**
+14. **Lab 14 – Capstone Project Studio**
 
-It provides a centralized system for publication management, source verification, reviewer approval, research analytics and NIRF/NAAC reporting.
+---
 
-## 3. Problem Statement
+## Course Project
 
-Academic research information is often maintained across multiple spreadsheets and platforms, making publication tracking, verification, duplicate detection and institutional reporting difficult.
+### Research Intelligence & Publication Analytics Portal (AURA)
 
-AURA addresses these challenges through a centralized platform that organizes research records and simplifies publication management and verification.
+### Project Overview
 
-## 4. Objectives
+AURA is a Research Intelligence and Publication Analytics Portal designed to maintain and analyse institutional faculty publication and citation records.
 
-- Centralize faculty and publication records.
-- Manage publication submissions and verification.
-- Identify potential duplicate publications.
-- Maintain citation information and research metrics.
-- Implement reviewer authentication and approval.
-- Generate faculty-wise and department-wise analytics.
-- Support institutional research reporting.
+The project aims to provide a reconciled view of publication information across Google Scholar, Scopus and Web of Science and support the preparation of NIRF/NAAC-oriented reports.
 
-## 5. Overview of 12 Assignments
+### Project Objectives
 
-The project coursework consists of the following 12 assignments.
+- Maintain centralized faculty publication records.
+- Identify duplicate research publications.
+- Support publication source verification.
+- Calculate citation metrics using verified records.
+- Generate publication analytics and institutional reports.
+- Ensure authorized human approval and maintain an audit trail.
 
-| Assignment | Description |
-|---|---|
-| Assignment 1 | [Official assignment title] |
-| Assignment 2 | [Official assignment title] |
-| Assignment 3 | [Official assignment title] |
-| Assignment 4 | [Official assignment title] |
-| Assignment 5 | [Official assignment title] |
-| Assignment 6 | [Official assignment title] |
-| Assignment 7 | [Official assignment title] |
-| Assignment 8 | [Official assignment title] |
-| Assignment 9 | [Official assignment title] |
-| Assignment 10 | [Official assignment title] |
-| Assignment 11 | [Official assignment title] |
-| Assignment 12 | [Official assignment title] |
+### Key Features
 
-## 6. Technologies Used
+- Faculty research profile management
+- Publication record submission and management
+- Duplicate publication detection
+- Publication source and evidence management
+- Citation analytics and h-index calculation
+- Reviewer authentication and access control
+- Human approval workflow
+- Audit logging
+- CSV report generation
+- NIRF/NAAC-oriented reporting
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python
-- **Database:** SQLite
-- **Data Handling:** JSON and CSV
-- **Testing:** Python unittest
+---
 
-## 7. Implementation
+## Technologies Used
 
-The application consists of the following modules:
+**Frontend**
+- HTML
+- CSS
+- JavaScript
 
-1. **Dashboard:** Displays publication statistics and research analytics.
-2. **Faculty Management:** Maintains faculty profiles and research information.
-3. **Publication Registry:** Stores and manages academic publications.
-4. **Research Intelligence:** Supports research workflows, source verification and duplicate detection.
-5. **Review and Approval:** Allows authorized reviewers to approve or return submissions.
-6. **Citation Analytics:** Organizes citation information and faculty research metrics.
-7. **Reports:** Supports institutional research reporting and CSV exports.
-8. **Audit Trail:** Maintains records of important application activities.
+**Backend**
+- Python
+- Python standard library
+- ThreadingHTTPServer
 
-The system uses a Python backend connected to an SQLite database, with an HTML, CSS and JavaScript frontend.
+**Database and Data Formats**
+- SQLite
+- JSON
+- CSV
+- Excel workbooks
 
-## 8. Results
+---
 
-The project provides a centralized research management application with:
-
-- Faculty profile management.
-- Publication submission and verification.
-- Reviewer approval workflows.
-- Duplicate publication screening.
-- Citation evidence management.
-- Research analytics and reporting.
-- Audit history.
-
-The existing database containing 553 imported publication records has been preserved.
-
-External Google Scholar, Scopus and Web of Science integrations require appropriate configuration and credentials.
-
-## 9. Project Source Code
+## Project Structure
 
 ```text
-AURA_College_Portal/
+Research-Intelligence-and-Publication-Analytics-Portal/
 │
-├── index.html
-├── server.py
-├── intelligence.py
-├── manage_reviewers.py
-├── replace_authority_data.py
-├── aura.sqlite3
-├── seed_records.json
+├── Assignments/
 │
-├── source_workbooks/
-├── Project_Documentation/
-├── backups/
-│
-├── test_app.py
-├── test_auth.py
-├── test_import_refresh.py
+├── Course_Project/
+│   └── Project_Source_Code/
+│       └── AURA_source code/
+│           ├── server.py
+│           ├── intelligence.py
+│           ├── manage_reviewers.py
+│           ├── replace_authority_data.py
+│           ├── index.html
+│           ├── seed_records.json
+│           ├── source_workbooks/
+│           ├── Project_Documentation/
+│           ├── test_app.py
+│           ├── test_auth.py
+│           └── test_import_refresh.py
 │
 └── README.md
 ```
 
-## 10. Project Execution
+---
 
-**Requirements:** Python 3.8 or newer.
+## How to Run the Project
 
-Run the following commands:
+### 1. Navigate to the project directory
 
 ```bash
-cd AURA_College_Portal
+cd Course_Project/Project_Source_Code/"AURA_source code"
+```
 
-python3 manage_reviewers.py \
---id researchadmin \
---name "Research Office Administrator" \
---role "Research Office"
+### 2. Start the application
 
+```bash
 python3 server.py
 ```
 
-Open the application:
+### 3. Open the application
 
+```text
 http://localhost:8765
-
-## 11. Project Links
-
-- **Source Code:** [GitHub Repository](GITHUB_REPOSITORY_URL)
-- **Assignments:** [Assignment Folder](Assignments/)
-- **Project Documentation:** [Documentation](Project_Documentation/)
-- **Final Report:** [Final Report](Final_Report/)
-
-## 12. Conclusion
-
-AURA provides a centralized platform for managing institutional research information, faculty publications, citation verification and research analytics.
-
-The project aims to improve the accuracy, accessibility and efficiency of academic research management while providing a foundation for institutional reporting and future research intelligence enhancements.
+```
 
 ---
 
-**KLE Technological University**  
-**Department of Computer Science and Artificial Intelligence**
+## Project Workflow
+
+1. Faculty publication information is maintained in the portal.
+2. Publication records are imported or submitted.
+3. Duplicate publication candidates are identified.
+4. Publication evidence is reviewed and verified.
+5. Citation metrics are calculated using verified records.
+6. Authorized reviewers examine workflow results.
+7. Approved results are made available for reporting.
+8. Publication analytics can be exported for institutional reporting.
+
+---
+
+## Project Documentation
+
+- Guide Problem Statement
+- Agent Workflow Documentation
+- Project Source Code
+- Source Workbooks
+- Automated Test Files
+
+---
+
+**Institution:** KLE Technological University, Belagavi  
+**Department:** Computer Science & Engineering (AI)  
+**Course:** Agentic AI (26ECAC401)  
+**Team:** Team 2
